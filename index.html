@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipbook</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include jQuery (necessary for Turn.js) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include Turn.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/turn.js/3.0.1/turn.min.js"></script>
+    <!-- Include PDF.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.6.172/pdf.min.js"></script>
+</head>
+<body>
+    <h1 class="centered-heading">The Flipbook</h1>
+    <div class="flipbook-container">
+        <button id="prevPage" class="arrow-button">&larr;</button>
+        <div class="flipbook" id="flipbook">
+            <!-- Pages will be dynamically added here -->
+        </div>
+        <button id="nextPage" class="arrow-button">&rarr;</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
